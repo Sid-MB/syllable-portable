@@ -13,9 +13,16 @@
     "build:js": "esbuild index.js --bundle --format=esm --main-fields=module,main --platform=neutral --outfile=dist/index.js --minify --external:./dictionary.js",
     "build:dict-dist": "esbuild dictionary.js --bundle --format=esm --platform=neutral --outfile=dist/dictionary.js --minify",
     "build": "npm run build:dict && mkdir -p dist && npm run build:js && npm run build:dict-dist",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test": "bun test"
   },
-  "keywords": ["syllable", "edge", "lazy-load", "dictionary", "cmu"],
+  "keywords": [
+    "syllable",
+    "edge",
+    "lazy-load",
+    "dictionary",
+    "cmu"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {

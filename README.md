@@ -8,10 +8,10 @@ Since this package is not published to the npm registry, install it directly fro
 
 ```bash
 # Using npm
-npm install https://github.com/YOUR_USERNAME/syllable-portable.git
+npm install https://github.com/Sid-MB/syllable-portable.git
 
 # Using bun
-bun add https://github.com/YOUR_USERNAME/syllable-portable.git
+bun add https://github.com/Sid-MB/syllable-portable.git
 ```
 
 ## Usage

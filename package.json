@@ -1,0 +1,17 @@
+{
+  "name": "syllable-portable",
+  "version": "1.0.0",
+  "description": "Lazy-loading, Node-free English syllable counter for Edge environments.",
+  "type": "module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/USER_NAME/syllable-portable.git"
+  },
+  "keywords": ["syllable", "edge", "lazy-load", "dictionary", "cmu"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "syllable": "^5.0.1"
+  }
+}
